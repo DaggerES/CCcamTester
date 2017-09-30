@@ -26,10 +26,10 @@ class CLineTester(object):
         self._ping = None
 
     def _readMatch(self, host, port, username, password):
-        self._host = host
+        self._host = str(host)
         self._port = int(port)
-        self._username = username
-        self._password = password
+        self._username = str(username)
+        self._password = str(password)
 
     @property
     def Timeout(self):
