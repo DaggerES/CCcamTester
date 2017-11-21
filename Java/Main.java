@@ -1,6 +1,8 @@
 //Created by Dagger -- https://github.com/gavazquez
 //With the help of ArSi -- https://github.com/arsi-apli
 
+// Please I'm trying to know the CCcam protocol better, I would like to messag you, can you send me your Email Address?
+// Mine is ricardoneves93@hotmail.com
 package org.cline;
 
 import java.io.IOException;
