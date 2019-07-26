@@ -99,7 +99,6 @@ def DoHanshake(socket):
 
     random = bytearray(16)
     socket.recv_into(random, 16) #Receive first 16 "Hello" random bytes
-    print "Hello bytes: " + random
 
     random = CriptoBlock.Xor(random); #Do a Xor with "CCcam" string to the hello bytes
 
